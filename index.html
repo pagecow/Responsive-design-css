@@ -23,37 +23,51 @@
     />
 
     <!-- CSS STYLE LINK -->
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body id="body">
     <section id="top-section">
-      <div id="input-container">
-        <h3 class="heading-text">My input:</h3>
-        <form class="inputs" action="./pages/search.html">
-          <input type="search" name="q" placeholder="Search here" />
-          <input type="submit" value="Search" />
-        </form>
+      <div id="input-big-container">
+        <div id="input-container" class="shadow-box">
+          <h3 class="heading-text">My input:</h3>
+          <form class="inputs" action="./pages/search.html">
+            <input type="search" name="q" placeholder="Search here" />
+            <input type="submit" value="Search" />
+          </form>
+        </div>
       </div>
-      <div class="container">
-        <h3 class="heading-text">Section header</h3>
-        <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quis distinctio, cumque, sint tenetur reprehenderit, itaque quo non quae a amet nobis porro quas id nostrum totam harum illo dignissimos.</p>
+      <div class="big-container">
+        <div class="container shadow-box">
+          <h3 class="heading-text">Section header</h3>
+          <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quis distinctio, cumque, sint tenetur reprehenderit, itaque quo non quae a amet nobis porro quas id nostrum totam harum illo dignissimos.</p>
+        </div>
       </div>
-      <div class="container">
-        <h3 class="heading-text">Section header</h3>
-        <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quis distinctio, cumque, sint tenetur reprehenderit, itaque quo non quae a amet nobis porro quas id nostrum totam harum illo dignissimos.</p>
+      <div class="big-container">
+        <div class="container shadow-box">
+          <h3 class="heading-text">Section header</h3>
+          <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti quis distinctio, cumque, sint tenetur reprehenderit, itaque quo non quae a amet nobis porro quas id nostrum totam harum illo dignissimos.</p>
+        </div>
       </div>
-    </section>
+     </section>
     <section id="middle-section">
-      <h3 class="heading-text">Cats are terrible:</h3>
-      <img class="image" src="./images/cat-1.jpg" alt="cat pic"/>
-      <img class="image" src="./images/cat-2.jpg" alt="cat pic"/>
-      <img class="image" src="./images/cat-3.webp" alt="cat pic"/>
-    </section>
+      <div class="shadow-box">
+        <h3 class="heading-text">Cats are terrible:</h3>
+      <div class="pics-container">
+        <img class="image" src="./images/cat-1.jpg" alt="cat pic"/>
+        <img class="image" src="./images/cat-2.jpg" alt="cat pic"/>
+        <img class="image" src="./images/cat-3.webp" alt="cat pic"/>
+      </div>
+      </div>
+     </section>
     <section id="bottom-section">
-      <h3 class="heading-text">Dogs are great:</h3>
-      <img class="image" src="./images/dog-1.jpg" alt="dog pic"/>
+      <div class="shadow-box">
+        <h3 class="heading-text">Dogs are great:</h3>
+      <div class="pics-container">
+        <img class="image" src="./images/dog-1.jpg" alt="dog pic"/>
       <img class="image" src="./images/dog-2.jpeg" alt="dog pic"/>
       <img class="image" src="./images/dog-3.webp" alt="dog pic"/>
-    </section>
+      </div>
+      </div>
+      </section>
   </body>
 </html>
